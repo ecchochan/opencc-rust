@@ -6,7 +6,7 @@ use std::path::PathBuf;
 use std::process::Command;
 
 const MIN_VERSION: &'static str = "1.0.0";
-const MAX_VERSION: &'static str = "1.1.0";
+const MAX_VERSION: &'static str = "1.1.1";
 
 fn main() {
     if cfg!(target_os = "freebsd") {
